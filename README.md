@@ -1,4 +1,4 @@
-# interface
+# Interface
 
 #### Inspiration
 This script is largely inspired from the works of Dr. Francesco Raimondi in the paper [here](https://pubmed.ncbi.nlm.nih.gov/31160049/)
