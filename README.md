@@ -1,7 +1,7 @@
 # interface
 
 #### Inspiration
-This script is largely inspired from the works of Dr. Francesco Raimondi in the *[Cell](https://pubmed.ncbi.nlm.nih.gov/31160049/)* paper
+This script is largely inspired from the works of Dr. Francesco Raimondi in the paper [here](https://pubmed.ncbi.nlm.nih.gov/31160049/)
 
 #### About
 For a given pair of chain IDs in a [PDB](https://www.rcsb.org/) complex, this script calculates all the interfaces between them and maps them to their equivalent positions in their corresponding proteins' FASTA sequences (UniProt Accession)
