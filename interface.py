@@ -47,8 +47,9 @@ if args.dist != None:
 if args.temp != None:
     tempdir = args.temp + '/'
 else:
-    tempdir = tempfile.mkdtemp() + '/'
-#print (tempdir)
+    tempdir = tempfile.TemporaryDirectory().name
+    #tempdir = tempfile.mkdtemp() + '/'
+
 out = None
 if args.out != None:
     out = args.out
