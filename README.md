@@ -34,4 +34,5 @@ For a given pair of chain IDs in a [PDB](https://www.rcsb.org/) complex, this sc
 1. Generate PyMol output
 2. Select type of atoms to consider for interface (default: all types)
 3. Use MMCIF format
-4. Improve selection of hits in PSI-BLAST
+4. Improve selection of hits from PSI-BLAST output
+5. Add neighbouring residues information
