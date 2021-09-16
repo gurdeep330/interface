@@ -26,7 +26,7 @@ path = os.getcwd()
 parser = argparse.ArgumentParser(description='Finds interface residues of any two '+
                                 'chains in a protein complex',
                                 epilog='Contact: gurdeep330[at]gmail[dot]com')
-parser.add_argument('pdb', help='Path to the PDB file (pdb/cif format)')
+parser.add_argument('pdb', help='PDB-ID (pdb/cif format)')
 parser.add_argument('chainA', help='ChainA-ID')
 parser.add_argument('chainB', help='ChainB-ID')
 parser.add_argument('--dist', help='interface distance cutoff (in Angstroms; '+
@@ -158,7 +158,7 @@ def main():
     else:
         parser = PDBParser()
         structure = parser.get_structure(pdb, tempdir+pdb+'.pdb')
-        
+
     for model in structure:
         if given_chainA in model and given_chainB in model:
             chainA = model[given_chainA]
